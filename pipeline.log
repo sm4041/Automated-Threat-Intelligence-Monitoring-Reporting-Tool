@@ -1,0 +1,28 @@
+2026-06-02 21:47:26  INFO      main — Dry run — validating imports only
+2026-06-02 21:47:26  INFO      main — All imports OK — pipeline is ready
+2026-06-02 21:47:29  INFO      main — ============================================================
+2026-06-02 21:47:29  INFO      main —   THREAT INTELLIGENCE PIPELINE
+2026-06-02 21:47:29  INFO      main — ============================================================
+2026-06-02 21:47:29  INFO      src.pipeline — Pipeline started at 20260602_214729
+2026-06-02 21:47:29  INFO      src.ingestors.cisa_kev — Fetching CISA KEV from https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+2026-06-02 21:47:29  ERROR     src.pipeline — CISA_KEV ingestor failed: HTTP Error 403: Forbidden
+2026-06-02 21:47:29  INFO      src.ingestors.msrc_rss — Fetching MSRC RSS from https://api.msrc.microsoft.com/update-guide/rss
+2026-06-02 21:47:29  ERROR     src.pipeline — MSRC_RSS ingestor failed: HTTP Error 403: Forbidden
+2026-06-02 21:47:29  INFO      src.pipeline — Raw data saved → /home/claude/threat-intel/data/raw/raw_20260602_214729.json
+2026-06-02 21:47:29  INFO      src.normalizer — Normalized 0 records, skipped 0
+2026-06-02 21:47:29  INFO      src.pipeline — Normalized 0 advisories
+2026-06-02 21:47:29  INFO      src.pipeline — Exported JSON → /home/claude/threat-intel/data/processed/advisories_20260602_214729.json
+2026-06-02 21:47:29  INFO      src.pipeline — Exported CSV  → /home/claude/threat-intel/data/processed/advisories_20260602_214729.csv
+2026-06-02 21:47:29  INFO      src.reporter — Brief written to /home/claude/threat-intel/reports/brief_20260602_214729.md (29 lines)
+2026-06-02 21:47:29  INFO      src.pipeline — Report generated → /home/claude/threat-intel/reports/brief_20260602_214729.md
+2026-06-02 21:47:29  INFO      src.pipeline — Pipeline complete: {'timestamp': '20260602_214729', 'total_ingested': 0, 'total_normalized': 0, 'top_score': 0, 'critical_count': 0, 'report_path': '/home/claude/threat-intel/reports/brief_20260602_214729.md', 'csv_path': '/home/claude/threat-intel/data/processed/advisories_20260602_214729.csv'}
+2026-06-02 21:47:29  INFO      main — 
+2026-06-02 21:47:29  INFO      main — ── PIPELINE SUMMARY ─────────────────────────────────────
+2026-06-02 21:47:29  INFO      main —   Run ID         : 20260602_214729
+2026-06-02 21:47:29  INFO      main —   Total ingested : 0
+2026-06-02 21:47:29  INFO      main —   Total normalized: 0
+2026-06-02 21:47:29  INFO      main —   Critical items : 0
+2026-06-02 21:47:29  INFO      main —   Top score      : 0
+2026-06-02 21:47:29  INFO      main —   Report         : /home/claude/threat-intel/reports/brief_20260602_214729.md
+2026-06-02 21:47:29  INFO      main —   CSV export     : /home/claude/threat-intel/data/processed/advisories_20260602_214729.csv
+2026-06-02 21:47:29  INFO      main — ─────────────────────────────────────────────────────────

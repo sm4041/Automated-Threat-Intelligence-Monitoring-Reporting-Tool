@@ -1,0 +1,224 @@
+[
+  {
+    "id": "CVE-2024-1709",
+    "title": "ConnectWise ScreenConnect \u2014 Authentication Bypass",
+    "description": "ConnectWise ScreenConnect authentication bypass leading to remote code execution.",
+    "source": "CISA_KEV",
+    "published_date": "2024-02-22",
+    "cve_ids": [
+      "CVE-2024-1709"
+    ],
+    "severity": "Critical",
+    "cvss_score": 10.0,
+    "vendor_project": "ConnectWise",
+    "product": "ScreenConnect",
+    "tags": [
+      "rce",
+      "auth_bypass",
+      "network"
+    ],
+    "in_kev": true,
+    "due_date": "2024-02-29",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "score": 10.0
+  },
+  {
+    "id": "CVE-2023-46604",
+    "title": "Apache ActiveMQ \u2014 Remote Code Execution",
+    "description": "Apache ActiveMQ RCE vulnerability exploited to deploy ransomware and web shells.",
+    "source": "CISA_KEV",
+    "published_date": "2023-11-02",
+    "cve_ids": [
+      "CVE-2023-46604"
+    ],
+    "severity": "Critical",
+    "cvss_score": 10.0,
+    "vendor_project": "Apache",
+    "product": "ActiveMQ",
+    "tags": [
+      "ransomware",
+      "rce",
+      "network"
+    ],
+    "in_kev": true,
+    "due_date": "2023-11-23",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "score": 10.0
+  },
+  {
+    "id": "CVE-2024-21762",
+    "title": "Fortinet FortiOS \u2014 Out-of-Bound Write",
+    "description": "Fortinet FortiOS out-of-bounds write vulnerability allows unauthenticated remote code execution.",
+    "source": "CISA_KEV",
+    "published_date": "2024-02-09",
+    "cve_ids": [
+      "CVE-2024-21762"
+    ],
+    "severity": "Critical",
+    "cvss_score": 9.6,
+    "vendor_project": "Fortinet",
+    "product": "FortiOS",
+    "tags": [
+      "rce",
+      "auth_bypass",
+      "network"
+    ],
+    "in_kev": true,
+    "due_date": "2024-02-16",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "score": 9.84
+  },
+  {
+    "id": "CVE-2024-3400",
+    "title": "Palo Alto Networks PAN-OS \u2014 OS Command Injection",
+    "description": "Palo Alto Networks PAN-OS command injection via GlobalProtect, actively exploited in the wild.",
+    "source": "CISA_KEV",
+    "published_date": "2024-04-12",
+    "cve_ids": [
+      "CVE-2024-3400"
+    ],
+    "severity": "Critical",
+    "cvss_score": 10.0,
+    "vendor_project": "Palo Alto Networks",
+    "product": "PAN-OS",
+    "tags": [
+      "zero_day",
+      "network"
+    ],
+    "in_kev": true,
+    "due_date": "2024-04-19",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "score": 9.75
+  },
+  {
+    "id": "CVE-2023-4966",
+    "title": "Citrix NetScaler ADC and Gateway \u2014 Buffer Overflow",
+    "description": "Citrix NetScaler sensitive information disclosure leading to session hijacking. Dubbed Citrix Bleed.",
+    "source": "CISA_KEV",
+    "published_date": "2023-10-18",
+    "cve_ids": [
+      "CVE-2023-4966"
+    ],
+    "severity": "Critical",
+    "cvss_score": 9.4,
+    "vendor_project": "Citrix",
+    "product": "NetScaler ADC and Gateway",
+    "tags": [
+      "infoleak",
+      "memory_corruption"
+    ],
+    "in_kev": true,
+    "due_date": "2023-10-25",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "score": 9.51
+  },
+  {
+    "id": "CVE-2024-21378",
+    "title": "Critical Remote Code Execution in Microsoft Outlook",
+    "description": "A critical zero-day remote code execution vulnerability in Microsoft Outlook is being actively exploited. Attackers send specially crafted emails to execute arbitrary code without user interaction.",
+    "source": "MSRC_RSS",
+    "published_date": "2024-03-12T12:00:00+00:00",
+    "cve_ids": [
+      "CVE-2024-21378"
+    ],
+    "severity": "Critical",
+    "cvss_score": 0.0,
+    "vendor_project": "Microsoft",
+    "product": "Outlook",
+    "tags": [
+      "rce",
+      "zero_day",
+      "network"
+    ],
+    "in_kev": false,
+    "due_date": "",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21378",
+    "score": 4.0
+  },
+  {
+    "id": "CVE-2024-21410",
+    "title": "Critical Remote Code Execution Vulnerability in Microsoft Exchange Server",
+    "description": "A critical remote code execution vulnerability exists in Microsoft Exchange Server that could allow an attacker to run arbitrary code.",
+    "source": "MSRC_RSS",
+    "published_date": "2024-02-13T12:00:00+00:00",
+    "cve_ids": [
+      "CVE-2024-21410"
+    ],
+    "severity": "Critical",
+    "cvss_score": 0.0,
+    "vendor_project": "Microsoft",
+    "product": "Exchange",
+    "tags": [
+      "rce",
+      "network"
+    ],
+    "in_kev": false,
+    "due_date": "",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21410",
+    "score": 3.75
+  },
+  {
+    "id": "CVE-2024-20678",
+    "title": "Critical Remote Code Execution in Windows Hyper-V",
+    "description": "A remote code execution vulnerability in Windows Hyper-V could allow an attacker on a guest VM to execute code on the host OS.",
+    "source": "MSRC_RSS",
+    "published_date": "2024-04-09T12:00:00+00:00",
+    "cve_ids": [
+      "CVE-2024-20678"
+    ],
+    "severity": "Critical",
+    "cvss_score": 0.0,
+    "vendor_project": "Microsoft",
+    "product": "Windows",
+    "tags": [
+      "rce",
+      "network"
+    ],
+    "in_kev": false,
+    "due_date": "",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20678",
+    "score": 3.75
+  },
+  {
+    "id": "CVE-2024-21338",
+    "title": "Important Elevation of Privilege Vulnerability in Windows Kernel",
+    "description": "An elevation of privilege vulnerability in the Windows Kernel allows a local attacker to gain SYSTEM privileges.",
+    "source": "MSRC_RSS",
+    "published_date": "2024-01-09T12:00:00+00:00",
+    "cve_ids": [
+      "CVE-2024-21338"
+    ],
+    "severity": "High",
+    "cvss_score": 0.0,
+    "vendor_project": "Microsoft",
+    "product": "Windows",
+    "tags": [
+      "eop"
+    ],
+    "in_kev": false,
+    "due_date": "",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21338",
+    "score": 2.5
+  },
+  {
+    "id": "CVE-2024-20667",
+    "title": "Moderate Information Disclosure in Azure DevOps Server",
+    "description": "An information disclosure vulnerability in Azure DevOps Server may expose sensitive repository data.",
+    "source": "MSRC_RSS",
+    "published_date": "2024-03-12T12:00:00+00:00",
+    "cve_ids": [
+      "CVE-2024-20667"
+    ],
+    "severity": "Medium",
+    "cvss_score": 0.0,
+    "vendor_project": "Microsoft",
+    "product": "Azure",
+    "tags": [
+      "infoleak"
+    ],
+    "in_kev": false,
+    "due_date": "",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20667",
+    "score": 1.5
+  }
+]

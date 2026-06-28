@@ -1,0 +1,9 @@
+# Threat Intelligence Pipeline — dependencies
+# All stdlib modules are used where possible to minimize external deps.
+
+# Testing
+pytest>=7.4
+pytest-cov>=4.1
+
+# Optional: richer terminal output (not required for pipeline)
+rich>=13.0          # pretty logging / tables
